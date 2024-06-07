@@ -1,0 +1,134 @@
+import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+.logo img{
+  position: absolute;
+  margin-top:-2px;
+  padding:0px; 
+  display: inline
+  height: 00px;px;
+  width:160px;
+  padding-top: 1px;
+  
+
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #34353b;
+}
+.menubar ul{
+  list-style: none;
+  background-color: rgb(54, 30, 30);
+
+padding: 0;
+margin: 0;
+text-align: center;
+}
+.menubar li{
+  display: inline-block;
+  padding: 12px;
+}
+.menubar a{
+  text-decoration: none;
+  color: #fff;
+    width: 100px;
+    display: block;
+    padding: 20px 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.menubar a:hover{
+color: yellow;
+background-color: #927878;
+animation: alternate-reverse;
+
+  }
+
+
+.container {
+    background: rgba(181, 179, 187, 0.7);
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.profile-image {
+    display: block;
+    margin: 0 auto 20px;
+    width: 150px;
+}
+
+.profile-image img {
+    height: 150px;
+    width: 150px; /* Maintain aspect ratio */
+    border: 1px solid #f8f5f5;
+    border-radius: 50%; /* Ensure a circular shape */
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-info p {
+    margin: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #230505;
+}
+
+footer {
+    background-image: url(background.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+    .logo img {
+        height: 80px;
+        max-width: 120px;
+    }
+
+    .profile-image img {
+        height: 120px;
+        width: 120px;
+    }
+}
